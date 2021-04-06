@@ -2,6 +2,9 @@ import React, { Component, Fragment } from "react";
 import ReactAudioPlayer from 'react-audio-player';
 import './fathercss.css';
 
+let test = 1;
+
+
 class Father extends Component{
     //说明下state中的两个属性，lrc是从总歌词中选择的当前歌词，ms为总歌词
     constructor(props){
